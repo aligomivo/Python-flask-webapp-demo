@@ -4,9 +4,9 @@ This is the demo Flask application for the Azure Quickstart.
 
 If you need an Azure account, you can [create one for free](https://azure.microsoft.com/en-us/free/).
 
-##Useful commands :
+## Useful commands :
 
-###Part 1
+### Part 1
 
 **Go to the application folder:**
 
@@ -18,15 +18,16 @@ If you need an Azure account, you can [create one for free](https://azure.micros
 
    Windows : 
 
-    ```
+    
 	py -m venv .venv
 	.venv\scripts\activate
-    ```
+    
 
    macOS/Linux :
 
    ```
-
+   python3 -m venv .venv
+   source .venv/bin/activate
    ```
 
 **Install the dependencies:**
@@ -41,7 +42,7 @@ If you need an Azure account, you can [create one for free](https://azure.micros
   flask run
   ```
 
-###Part 2
+### Part 2
 
 **login to Azure**
 
